@@ -1,0 +1,20 @@
+export class Siparis{
+  siparisId:number;
+  siparisKodu:number;
+  siparisUyeId:number;
+  siparisTarih:string;
+  siparisUrunId:number;
+  siparisAciklama:string;
+  siparisUyeAdres:string;
+  siparisUrunAdi:string;
+  siparisUyeAdi:string;
+  siparisUyeSoyadi:string;
+  siparisUrunFiyati:number;
+  siparisUyeTelefon:string;
+  siparisUyeEposta:string;
+  siparisUrunAciklama:string;
+  siparisUrunAdet:number;
+  siparisUrunKodu:number;
+  siparisUrunMarkaAdi:number;
+  siparisUrunKategoriAdi:number;
+}

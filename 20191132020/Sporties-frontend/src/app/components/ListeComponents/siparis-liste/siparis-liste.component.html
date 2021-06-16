@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Sipariş Bilgisi</h1>
+
+  <h3>
+    <button mat-stroked-button color="primary" (click)="Duzenle(secSip)">Düzenle</button>
+    &nbsp;
+    <button mat-stroked-button color="warn" (click)="Sil(secSip)">Sil</button>
+  </h3>
+
+  <h3><b>Sipariş Id : </b>{{ secSip?.siparisId }}</h3>
+  <h3><b>Sipariş Kodu : </b>{{ secSip?.siparisKodu }}</h3>
+  <h3><b>Sipariş Üye Id : </b>{{ secSip?.siparisUyeId }}</h3>
+  <h3><b>Sipariş Üye Adı : </b>{{ secSip?.siparisUyeAdi }}</h3>
+  <h3><b>Sipariş Üye Soyadı : </b>{{ secSip?.siparisUyeSoyadi }}</h3>
+  <h3><b>Sipariş Ürün Id : </b>{{ secSip?.siparisUrunId }}</h3>
+  <h3><b>Sipariş Ürün Adı : </b>{{ secSip?.siparisUrunAdi }}</h3>
+  <h3><b>Sipariş Fiyatı : </b>{{ secSip?.siparisUrunFiyati }}</h3>
+  <h3><b>Sipariş Açıklaması : </b>{{ secSip?.siparisAciklama }}</h3>
+  <h3><b>Sipariş Tarihi : </b>{{ secSip?.siparisTarih }}</h3>
+  <h3><b>Sipariş Adresi : </b>{{ secSip?.siparisUyeAdres }}</h3>
+  <h3><b>Sipariş Telefon : </b>{{ secSip?.siparisUyeTelefon }}</h3>
+  <h3><b>Sipariş Eposta : </b>{{ secSip?.siparisUyeEposta }}</h3>
+  <h3><b>Sipariş Adet : </b>{{ secSip?.siparisUrunAdet }}</h3>
+
+  <p>&nbsp;</p>
+
+  <button mat-stroked-button color="primary" [routerLink]="['/admin/siparisler']">Geri</button>
+</div>
